@@ -10,8 +10,7 @@
     "dev:tsc": "tsc --watch --preserveWatchOutput",
     "dev:node": "node --watch  dist/index.js",
     "dev:esbuild": "pnpm run build --watch",
-    "dev": "run-p dev:*",
-    "test": "jest"
+    "dev": "run-p dev:*"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +20,8 @@
     "esbuild": "^0.23.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.4.1"
   }
 }
